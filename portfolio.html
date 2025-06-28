@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sajjad Patel | Frontend Developer</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background: #0d47a1;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      background: linear-gradient(to right, #1976d2, #64b5f6);
+      color: white;
+      padding: 60px 20px;
+    }
+
+    .hero-text {
+      max-width: 600px;
+    }
+
+    .hero-text h2 {
+      font-size: 2.2rem;
+    }
+
+    .hero img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      margin: 20px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #0d47a1;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .skills, .projects {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .skills img, .projects img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      margin: 10px;
+    }
+
+    .card {
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin: 10px;
+      padding: 15px;
+      text-align: center;
+      border-radius: 8px;
+      width: 280px;
+      
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background: #1976d2;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      background: #0d47a1;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .contact td {
+      vertical-align: top;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🅿️ Sajjad Patel</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Skills</a>
+      <a href="#">Projects</a>
+      <a href="#">Education</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm Sajjad Patel</h2>
+      <h3>Frontend Developer</h3>
+      <p>I design and build interactive user experiences using HTML, CSS, and JavaScript. Passionate about clean UI, responsive design, and modern frontend technologies.</p>
+    </div>
+    <img src="D:\RED & WHITE\HTML\image\my.jpg" alt="Sajjad Patel">
+  </div>
+
+  <section>
+    <h2>About Me</h2>
+    <p style="text-align:center;">I build must-have frontend projects like Portfolio sites, Responsive layouts, To-Do apps, CMS interfaces, and JavaScript-based tools. All projects are hosted with GitHub or Netlify.</p>
+  </section>
+
+  <section>
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="card"><img src="D:\RED & WHITE\HTML\image\HTML5.png"><p><strong>HTML5</strong></p></div>
+      <div class="card"><img src="d:\RED & WHITE\HTML\image\CSS-Logo.png"><p><strong>CSS3</strong></p></div>
+      <div class="card"><img src="d:\RED & WHITE\HTML\image\js.png"><p><strong>JavaScript</strong></p></div>
+      
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <img src="D:\RED & WHITE\HTML\image\heraschool.png" alt="Project 1">
+        <h4>Education Site</h4>
+        <p>Hera English School Amod Information.</p>
+      </div>
+      <div class="card">
+        <img src="D:\RED & WHITE\HTML\image\portfolio.png" alt="Project 2">
+        <h4>Portfolio Website</h4>
+        <p>Personal branding site with contact form.</p>
+      </div>
+      <div class="card">
+        <img src="D:\RED & WHITE\HTML\image\furniture.png" alt="Project 3">
+        <h4>Furniture World</h4>
+        <p>Furniture World
+Modern, Minimal & Affordable Furniture for Everyone.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <table>
+      <tr><th>Qualification</th><th>Institution</th><th>Year</th></tr>
+      <tr><td>10<sup>th</sup> SSC</td><td>The Dayadara high School</td><td>2007</td></tr>
+      <tr><td>12<sup>th</sup> HSC</td><td>The Dayadara high Secondary School</td><td>2009</td></tr>
+      <tr><td>BCA</td><td>VNSGU Univercity</td><td>2013</td></tr>
+      <tr><td>MSC-IT</td><td>Sardar Patel Univercity, Vidhyanagar</td><td>2015</td></tr>
+      <tr><td>B.Ed</td><td>HNGU Univercity</td><td>2022</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Certified Courses</h2>
+    <table>
+      <tr><th>Course</th><th>Institute</th><th>Status</th></tr>
+      <tr><td>Fullstack Development</td><td>Red & White Multimedia</td><td>Ongoing</td></tr>
+      <tr><td>Hardware & Networking</td><td>C-DAC</td><td>Completed</td></tr>
+      <tr><td>JavaScript</td><td>Infosys IT</td><td>Completed</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <table class="contact">
+      <tr><th>Contact</th><th>Quick Links</th><th>Reach Me</th></tr>
+      <tr>
+        <td>
+          Mobile: +91 9427878651<br>
+          Email: sajjadpatel@live.in<br>
+          LinkedIn: Sajjad Patel
+        </td>
+        <td>
+          Home<br>
+          About<br>
+          Skills<br>
+          Projects
+        </td>
+        <td>
+          Available for freelance or internship roles.<br>
+          Email: sajjadpatel92@gmail.com
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    © 2025 Sajjad Patel | Designed with ❤️
+  </footer>
+
+</body>
+</html>
